@@ -3,3 +3,4 @@ torch
 numpy
 librosa
 psutil
+faster-whisper
