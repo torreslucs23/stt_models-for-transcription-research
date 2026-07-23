@@ -23,10 +23,10 @@ import time
 import psutil
 from faster_whisper import WhisperModel
 
-MODEL_SIZE = "base"  # tiny, base, small, medium, large-v3 -- bigger = more accurate, slower, more RAM
+MODEL_SIZE = "large-v3-turbo"  # v3 encoder, distilled 4-layer decoder -- fast, low resource use
 DEVICE = "cpu"
 COMPUTE_TYPE = "int8"  # quantized weights (CTranslate2), lowest CPU/RAM footprint
-LANGUAGE = None  # None = auto-detect from the audio; or force e.g. "pt", "en"
+LANGUAGE = None  # None = auto-detect -- forcing "pt" leaked Portuguese words into English audio
 BEAM_SIZE = 1  # greedy decoding -- faster, fine for short voice-command-style audio
 
 RESOURCE_SAMPLE_INTERVAL_S = 0.2  # finer than the streaming benchmark: these runs are short

@@ -4,3 +4,4 @@ numpy
 librosa
 psutil
 faster-whisper
+jiwer

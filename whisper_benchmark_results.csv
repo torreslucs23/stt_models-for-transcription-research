@@ -1,4 +1,2 @@
 timestamp,audio_file,model_size,device,compute_type,audio_duration_s,processing_time_s,speedup_factor,cpu_avg_pct,cpu_peak_pct,ram_avg_mb,ram_peak_mb
-2026-07-22T02:29:58,test_sample.wav,base,cpu,int8,5.99,5.23,1.14,378.5,463.9,797.7,888.0
-2026-07-22T02:34:46,audio.mp3,base,cpu,int8,12.7,1.16,10.91,427.3,536.9,727.7,749.9
-2026-07-22T02:36:51,audio2.mp3,base,cpu,int8,35.3,2.04,17.29,406.5,588.6,757.8,817.2
+2026-07-23T20:29:22,audio_test.mp3,large-v3-turbo,cpu,int8,31.13,19.16,1.62,399.6,549.0,2384.6,2497.4

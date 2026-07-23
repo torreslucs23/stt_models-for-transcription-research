@@ -1,6 +1,4 @@
 timestamp,model_id,device,quantized,test_duration_s,audio_processed_s,realtime_factor,num_audio_chunks,num_text_events,latency_avg_ms,latency_p50_ms,latency_p95_ms,latency_max_ms,cpu_avg_pct,cpu_peak_pct,ram_avg_mb,ram_peak_mb
-2026-07-21T18:28:17,nvidia/nemotron-3.5-asr-streaming-0.6b,cpu,True,26.8,28.66,1.069,49,336,111.0,106.4,136.8,208.8,91.0,112.9,3772.2,3776.8
-2026-07-21T18:32:38,nvidia/nemotron-3.5-asr-streaming-0.6b,cpu,True,50.91,53.23,1.046,91,803,112.3,109.6,132.8,280.1,94.5,119.9,3773.8,3778.1
-2026-07-21T19:17:43,nvidia/nemotron-3.5-asr-streaming-0.6b,cpu,True,40.67,42.7,1.05,73,735,125.9,116.8,196.5,264.9,103.7,149.9,3745.7,3757.5
-2026-07-21T19:28:14,nvidia/nemotron-3.5-asr-streaming-0.6b,cpu,True,573.96,599.62,1.045,1025,7274,119.1,111.6,162.2,268.6,117.9,208.7,3783.6,3869.1
-2026-07-21T19:31:34,nvidia/nemotron-3.5-asr-streaming-0.6b,cpu,True,170.3,178.43,1.048,305,2332,123.9,119.6,151.3,333.9,103.8,169.8,3760.3,3790.1
+2026-07-23T19:56:56,nvidia/nemotron-3.5-asr-streaming-0.6b,cpu,True,63.12,66.11,1.047,113,1322,143.6,141.6,173.9,301.9,120.8,153.9,3751.7,3759.3
+2026-07-23T20:03:40,nvidia/nemotron-3.5-asr-streaming-0.6b,cpu,True,40.17,42.12,1.049,72,806,140.1,138.9,173.2,189.7,116.2,155.9,3762.2,3765.9
+2026-07-23T20:13:28,nvidia/nemotron-3.5-asr-streaming-0.6b,cpu,True,25.36,26.91,1.061,46,404,132.0,127.3,174.5,223.5,108.7,150.9,3779.8,3884.6

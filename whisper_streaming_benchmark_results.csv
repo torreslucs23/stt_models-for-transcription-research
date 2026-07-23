@@ -1,0 +1,4 @@
+timestamp,model_size,device,compute_type,test_duration_s,audio_processed_s,realtime_factor,num_utterances,latency_avg_ms,latency_p50_ms,latency_p95_ms,latency_max_ms,cpu_avg_pct,cpu_peak_pct,ram_avg_mb,ram_peak_mb
+2026-07-23T20:00:50,large-v3-turbo,cpu,int8,71.28,42.11,0.591,4,7327.1,7586.3,7927.1,7927.1,163.8,446.7,2301.6,2498.8
+2026-07-23T20:09:18,large-v3-turbo,cpu,int8,55.14,30.78,0.558,3,6706.5,6989.0,7420.7,7420.7,190.8,458.8,2300.1,2499.1
+2026-07-23T20:24:56,large-v3-turbo,cpu,int8,101.21,11.46,0.113,6,12770.8,12901.6,13297.2,13297.2,327.0,454.8,2352.1,2579.0
